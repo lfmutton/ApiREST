@@ -1,18 +1,13 @@
 {
   "name": "facens",
   "version": "1.0.0",
-  "main": "api.js",
   "type": "module",
   "scripts": {
     "start": "node api.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prestart": "npm install --force"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "cors": "^2.8.5"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+    "express": "4.18.2",  
+    "cors": "2.8.5"      
+  }
 }
